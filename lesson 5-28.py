@@ -20,7 +20,7 @@ def main():
     choice = int(input("Choose option: "))
     
     # Perform the selected action.
-    if choice == AREA_RECTANGLE_CHOICE:
+    if choice == AREA_CIRCLE_CHOICE:
         radius = float(input("Enter the radius of the circle: "))
         print("The area of rectangle is: ", circle.area(radius))
     elif choice == CIRCUMFERENCE_CHOICE:
@@ -40,7 +40,7 @@ def main():
         print("Error. Invalid choice.")
         
 # Function 'display_menu' shows menu.
-def display_menu:
+def display_menu():
     print("Menu")
     print("1. Area of the circle")
     print("2. Length of the circle")

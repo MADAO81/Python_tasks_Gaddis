@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="" />
+    <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 5-28.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 5-28.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +30,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.3-18.executor": "Run",
+    "Python.lesson 5-28.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Pypractice",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Pylearn",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
