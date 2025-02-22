@@ -14,12 +14,14 @@ NUM2 = random.randint(0, 1000)
 print(" ", NUM1)
 print("+", NUM2)
 
+
 def math_quiz():
     sum_num = NUM1 + NUM2
-    interrogation = int(input("Tell us the sum of these numbers: " ))
+    interrogation = int(input("Tell us the sum of these numbers: "))
     if interrogation == sum_num:
         print("Correct!")
     else:
         print("Incorrect! Correct solution is: ", sum_num)
+
 
 math_quiz()

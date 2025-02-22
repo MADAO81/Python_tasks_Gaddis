@@ -1,4 +1,4 @@
-#Calories from fats and carbohydrates.
+# Calories from fats and carbohydrates.
 # A nutritionist works at a sports club and gives 
 # recommendations to clients regarding diet. As part of his recommendations, 
 # He asks clients for the number of grams of fats and carbohydrates they consumed per day. 
@@ -14,13 +14,16 @@ def main():
     print(f"You got {fat_cal_calc(fat):,.2f} calories from {fat} grams of fat today.")
     print(f"You got {carb_cal_calc(carbs):,.2f} calories from {carbs} grams of carbohydrates today.")
     print(f"You got {cal_overall:,.2f} calories overall today.")
-    
+
+
 def fat_cal_calc(fat):
-    fat_calories = fat *9
+    fat_calories = fat * 9
     return fat_calories
-    
+
+
 def carb_cal_calc(carbs):
     carb_calories = carbs * 6
     return carb_calories
-    
+
+
 main()

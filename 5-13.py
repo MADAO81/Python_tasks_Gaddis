@@ -7,13 +7,15 @@
 a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 
-def max(a,b):
-    if a >b:
+
+def max(a, b):
+    if a > b:
         return a
     elif a < b:
         return b
     else:
         return print("Your numbers are equal!")
 
-bigger_number = max(a,b)
+
+bigger_number = max(a, b)
 print("The bigger number is: ", bigger_number)

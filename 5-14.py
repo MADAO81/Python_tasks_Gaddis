@@ -8,17 +8,20 @@
 # Write a program that calls this function in a loop, passes values from 1 to 10 as arguments,
 # and displays the return value.
 import math
-G = 9.8 # acceleration of gravity
+
+G = 9.8  # acceleration of gravity
+
 
 def main():
     time = 1
-    for sec in range(1,11):
+    for sec in range(1, 11):
         print(f" Time: {time} sec. Distance: {falling_distance(time):.2f} meters")
-        time +=1
+        time += 1
 
 
 def falling_distance(time):
-    distance = 0.5 * G * math.pow(time,2)
+    distance = 0.5 * G * math.pow(time, 2)
     return distance
+
 
 main()

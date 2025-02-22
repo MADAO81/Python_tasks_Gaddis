@@ -10,19 +10,23 @@
 MUN_TAX_RATE = 0.025
 FED_TAX_RATE = 0.05
 
+
 def main():
     sales = float(input("Eter the sum of monthly sales, $: "))
     total_tax = fed_tax(sales) + mun_tax(sales)
     print(f"Municipal tax for your sales: $ {mun_tax(sales):,.2f}")
     print(f"Federal tax for your sales: $ {fed_tax(sales):,.2f}")
     print(f"Total tax for your sales: $ {total_tax:,.2f}")
-    
+
+
 def fed_tax(sales):
     federal_tax_sum = sales * FED_TAX_RATE
     return federal_tax_sum
-    
+
+
 def mun_tax(sales):
     mun_tax_sum = sales * MUN_TAX_RATE
     return mun_tax_sum
+
 
 main()

@@ -6,12 +6,15 @@
 # of inches in that number of feet.
 INCHES_IN_FOOT = 12
 
+
 def main():
     feet = float(input("Enter the number of feet that you want to convert: "))
     print(f"In {feet} feet - {feet_to_inches(feet):.2f} inches.")
-    
+
+
 def feet_to_inches(feet):
     inches = feet * INCHES_IN_FOOT
     return inches
-    
+
+
 main()
