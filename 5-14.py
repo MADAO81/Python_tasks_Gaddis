@@ -15,7 +15,8 @@ G = 9.8  # acceleration of gravity
 def main():
     time = 1
     for sec in range(1, 11):
-        print(f" Time: {time} sec. Distance: {falling_distance(time):.2f} meters")
+        res = falling_distance(time)
+        print(f" Time: {time} sec. Distance: {res:.2f} meters")
         time += 1
 
 

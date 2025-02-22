@@ -13,8 +13,9 @@ import math
 def main():
     mass_of_body = float(input("Enter the body mass, kilograms: "))
     speed = float(input("Enter the speed of the body, meters per second: "))
+    res = kinetic_energy(mass_of_body, speed)
     print(f"Kinetic energy of this body will be: "
-          f"{kinetic_energy(mass_of_body, speed):,.2f}, Joules")
+          f"{res:,.2f}, Joules")
 
 
 def kinetic_energy(m, s):
