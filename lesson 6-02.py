@@ -7,7 +7,7 @@ def main():
     file_contents = infile.read()
     
     # Close the file 
-    ifile.close()
+    infile.close()
     
     # Print the data read into RAM
     print(file_contents)
