@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson 6-11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson 6-12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/control_point 6-12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/control_point 6-14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/control_point 6-15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6-13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6-14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 6-15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +48,9 @@
     "Python.5-14.executor": "Run",
     "Python.5-15.executor": "Run",
     "Python.5-16.executor": "Run",
+    "Python.control_point 6-12.executor": "Run",
+    "Python.control_point 6-13.executor": "Run",
+    "Python.control_point 6-15.executor": "Run",
     "Python.lesson 5-28.executor": "Debug",
     "Python.lesson 6-01.executor": "Run",
     "Python.lesson 6-02.executor": "Run",
@@ -56,6 +64,9 @@
     "Python.lesson 6-10.executor": "Run",
     "Python.lesson 6-11.executor": "Run",
     "Python.lesson 6-12.executor": "Run",
+    "Python.lesson 6-13.executor": "Run",
+    "Python.lesson 6-14.executor": "Run",
+    "Python.lesson 6-15.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -64,8 +75,8 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.lesson 6-12">
-    <configuration name="lesson 6-08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.lesson 6-15">
+    <configuration name="control_point 6-14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,7 +89,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-08.py" />
+      <option name="SCRIPT_NAME" value="C:\Pylearn\control_point 6-14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="control_point 6-15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +111,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-09.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control_point 6-15.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson 6-13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-10.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-13.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,7 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson 6-14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,7 +155,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-11.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-14.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,7 +164,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson 6-15" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,7 +177,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-15.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lesson 6-12" />
-        <item itemvalue="Python.lesson 6-11" />
-        <item itemvalue="Python.lesson 6-10" />
-        <item itemvalue="Python.lesson 6-09" />
-        <item itemvalue="Python.lesson 6-08" />
+        <item itemvalue="Python.lesson 6-15" />
+        <item itemvalue="Python.lesson 6-14" />
+        <item itemvalue="Python.lesson 6-13" />
+        <item itemvalue="Python.control_point 6-15" />
+        <item itemvalue="Python.control_point 6-14" />
       </list>
     </recent_temporary>
   </component>
