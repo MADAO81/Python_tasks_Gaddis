@@ -1,4 +1,4 @@
-?Brasilian medium
-300
+Brasilian medium
+500
 Arabica light
 500
