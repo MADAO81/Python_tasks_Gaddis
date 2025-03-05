@@ -1,4 +1,8 @@
-Brasilian medium
-500
 Arabica light
-500
+500.0
+Brasilian medium
+1000
+Colombian strong
+480
+Arabica light
+980
