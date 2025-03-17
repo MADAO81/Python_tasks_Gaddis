@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/6-09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-10-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-10-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6-12.py" beforeDir="false" afterPath="$PROJECT_DIR$/6-12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/golf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/golf.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,55 +39,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.3-18.executor": "Run",
-    "Python.5-11.executor": "Run",
-    "Python.5-13.executor": "Run",
-    "Python.5-14.executor": "Run",
-    "Python.5-15.executor": "Run",
-    "Python.5-16.executor": "Run",
-    "Python.6-09.executor": "Run",
-    "Python.control_point 6-12.executor": "Run",
-    "Python.control_point 6-13.executor": "Run",
-    "Python.control_point 6-15.executor": "Run",
-    "Python.lesson 5-28.executor": "Debug",
-    "Python.lesson 6-01.executor": "Run",
-    "Python.lesson 6-02.executor": "Run",
-    "Python.lesson 6-03.executor": "Run",
-    "Python.lesson 6-04.executor": "Run",
-    "Python.lesson 6-05.executor": "Run",
-    "Python.lesson 6-06.executor": "Run",
-    "Python.lesson 6-07.executor": "Run",
-    "Python.lesson 6-08.executor": "Run",
-    "Python.lesson 6-09.executor": "Run",
-    "Python.lesson 6-10.executor": "Run",
-    "Python.lesson 6-11.executor": "Run",
-    "Python.lesson 6-12.executor": "Run",
-    "Python.lesson 6-13.executor": "Run",
-    "Python.lesson 6-14.executor": "Run",
-    "Python.lesson 6-15.executor": "Run",
-    "Python.lesson 6-16.executor": "Run",
-    "Python.lesson 6-17.executor": "Run",
-    "Python.lesson 6-18.executor": "Run",
-    "Python.lesson 6-19.executor": "Run",
-    "Python.lesson 6-20.executor": "Run",
-    "Python.lesson 6-21.executor": "Run",
-    "Python.lesson 6-22.executor": "Run",
-    "Python.lesson 6-23.executor": "Run",
-    "Python.lesson 6-24.executor": "Run",
-    "Python.lesson 6-25.executor": "Run",
-    "Python.lesson 6-29.executor": "Run",
-    "Python.lesson 6-30.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Python_practice/Pylearn",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.3-18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-10-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-10-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.control_point 6-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.control_point 6-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.control_point 6-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 5-28.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.lesson 6-01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-29.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lesson 6-30.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Python_practice/Pylearn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.6-09">
+}</component>
+  <component name="RunManager" selected="Python.6-12">
     <configuration name="6-09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
@@ -108,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-24" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6-10-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +127,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-24.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-10-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-25" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6-10-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,7 +149,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-25.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-10-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-29" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6-11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-29.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 6-30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="6-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 6-30.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6-12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6-12" />
+        <item itemvalue="Python.6-11" />
+        <item itemvalue="Python.6-10-2" />
+        <item itemvalue="Python.6-10-1" />
         <item itemvalue="Python.6-09" />
-        <item itemvalue="Python.lesson 6-30" />
-        <item itemvalue="Python.lesson 6-29" />
-        <item itemvalue="Python.lesson 6-25" />
-        <item itemvalue="Python.lesson 6-24" />
       </list>
     </recent_temporary>
   </component>

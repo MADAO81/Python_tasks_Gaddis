@@ -18,7 +18,7 @@ def main():
         # read the field with scores
         scores = float(score_file.readline())
         
-        # delet \n from description
+        # delete \n from description
         description = description.rstrip("\n")
         
         # show record
@@ -33,9 +33,6 @@ def main():
 
 # call main function
 main()
-    
-# call main function
-main()
-    
+
     
     
