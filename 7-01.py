@@ -14,3 +14,27 @@ def main():
 
 # Call main function
 main()
+
+# def main():
+#     # Переменные
+#     total_sales = 0.0
+#
+#     # Инициализировать списки
+#     daily_sales = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+#     days_of_week = ['понедельник', 'вторник', 'среда',
+#                     'четверг', 'пятница', 'суббота',
+#                     'воскресенье']
+#
+#     for i in range(7):
+#         daily_sales[i] = float(input('Введите продажи за ' \
+#                                      + days_of_week[i] + ': '))
+#
+#     for number in daily_sales:
+#         total_sales += number
+#
+#     # Показать общий объем продаж
+#     print ('Общий объем продаж за неделю: $', \
+#            format(total_sales, ',.2f'), sep='')
+#
+# # Вызвать главную функцию.
+# main()
