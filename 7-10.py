@@ -21,7 +21,7 @@ def main():
         
         # Check if this team won the World Series.
         if team not in winners:
-            print("Team", team, "never won Worls Series.")
+            print("Team", team, "never won World Series.")
             
         # Calculate the number of team wins in the World Series
         else: 
