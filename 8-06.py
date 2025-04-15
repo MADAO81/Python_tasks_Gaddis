@@ -29,7 +29,7 @@ def main():
         print("Average number of words per line: ", average_words)
         
         # Close file
-        infile(close)       
+        infile.close()
         
     # Handle any errors that may occur
     except IOError:
