@@ -1,22 +1,22 @@
-# Упражнение по программированию 10-5
+# task 10-05
 
-# Класс Retailltem
+# RetailItem class
 
 class RetailItem:
-    def __init__(self, description, inventory, price):
-        self.__description = description
+    def __init__(self,decsription, inventory, price):
+        self.__description = decsription
         self.__inventory = inventory
-        self.__price = price
+        self.__price = price 
         
-    def set_description(self, description):
-        self.__description = description
-
+    def set_description(self, decsription):
+        self.__description = decsription
+        
     def set_inventory(self, inventory):
         self.__inventory = inventory
-
+        
     def set_price(self, price):
         self.__price = price
-
+        
     def get_description(self):
         return self.__description
         
@@ -25,10 +25,8 @@ class RetailItem:
         
     def get_price(self):
         return self.__price
-
+        
     def __str__(self):
-        result = 'Описание: ' + self.get_description() + '\n' + \
-                 'Единиц на складе: ' + str(self.get_inventory()) + \
-                 '\nЦена: $' + str(self.get_price())
+        result = "Description: " + self.get_description() + "Units in stock: " + str(self.get_inventory()) + "Price: " + str(self.get_price()) 
         return result
-		
+        

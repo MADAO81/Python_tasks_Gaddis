@@ -1,7 +1,7 @@
 # Car class 
 
 # import car 
-from objects import car:
+from objects import car
     
 def main():
     # Create an instance of the Car class.
