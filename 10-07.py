@@ -57,26 +57,28 @@ def load_employees():
         
     return employee_dict
     
-def get_user_choice
+def get_user_choice():
     # Show the menu, get the user's choice and check its validity.
-	print()
-	print("Menu")
-	print("===================================")
-    print("1. Find an employee")
-    print("2. Add a new employee")
+    print()
+    print('Menu')
+    print('-------------------------------------')
+    print('1. Find an employee')
+    print('2. Add a new employee')
     print("3. Edit an existing employee")
     print("4. Delete an employee")
     print("5. Exit the program")
-	print()
-	
-	choice = int(input("Enter your choice: "))
+    print()
+
+    choice = int(input('Enter your choice: '))
 	
 	# Check the selection.
-	while choice < LOOK_UP or choice > QUIT:
-	    choice = int(input("The choice you have made is unacceptable. Please enter a valid choice:"))
+    while choice < LOOK_UP or choice > QUIT:
+        choice = int(input('The choice you have made is unacceptable.' \
+                           ' Please enter a valid choice: '))
+
 	    
 	# Return user's choice
-	return choice
+    return choice
 	
 def look_up(employees):
     # Get the employee identification number for the search.
