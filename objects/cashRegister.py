@@ -1,45 +1,39 @@
-# Упражнение по программированию 10-8
-
-# Класс CashRegister
+# CashRegister 
 
 import retail
 
 class CashRegister:
-
-    # Инициализировать пустой словарь для приобретенных товаров.
+    # initialize empty dictionary for purchased goods 
     def __init__(self):
-
+        
         self.__items = []
-
-    # Очищает содержимое кассового аппарата.
+        
+    # Cleans the contents of the cash register.
     def clear(self):
-
+        
         self.__items = []
-
-    # Имитирует добавление товара в кассовый аппарат.
-    # Получает объект RetailItem в качестве аргумента. 
+        
+    # Simulates adding an item to the cash register. Gets the Retail Item object as an argument.
     def purchase_item(self, retail_item):
-
+        
         self.__items.append(retail_item)
-        print('Товар был добавлен в кассовый аппарат.')
-
-    # Возвращает общую стоимость товаров в кассовом аппарате.
+        print("The product was added to the cash register.")
+        
+    # Returns the total cost of the items at the cash register.
     def get_total(self):
-
+        
         total = 0.0
         for item in self.__items:
             total = total + item.get_price()
-
-        return total
-
-    # Печатает список товаров в кассовом аппарате.
+            
+        return total 
+        
+    # Prints the list of products in the cash register.
     def show_items(self):
-
-        print('Товары в кассовом аппарате:')
+        
+        print("Products at the cash register: ")
         print()
         for item in self.__items:
             print(item)
             print()
-
-
-
+        
