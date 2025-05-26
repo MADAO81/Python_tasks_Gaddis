@@ -60,15 +60,18 @@ class Car(Automobile):
         self.__doors = doors 
         
     # The get_doors method is the receiving method of the doors attribute.
-    
-    
-# The Truck class represents a pickup truck. 
+
+    def get_doors(self):
+        return self.__doors
+
+
+    # The Truck class represents a pickup truck.
 # It is a subclass of the Automobile class.
 
 class Truck(Automobile):
     # The init method accepts arguments for the manufacturer, model, mileage, price, and type of pickup drive.
     
-    def __init__(self, make, model, mileage, price, driv_type):
+    def __init__(self, make, model, mileage, price, drive_type):
         # Call the init method of the superclass and pass
         # the required arguments. Note that we also pass self as an argument. 
         Automobile.__init__(self, make, model, mileage, price)
@@ -98,7 +101,7 @@ class SUV(Automobile):
         # the required arguments. Note that we also pass self as an argument.
         Automobile.__init__(self, make, model, mileage, price)
         
-        # initialize __pass_cap atribute 
+        # initialize __pass_cap attribute
         self.__pass_cap = pass_cap 
         
     # The set_pass_cap method is a modifier method for the _pass_cap attribute.
@@ -116,6 +119,3 @@ class SUV(Automobile):
         
         
 
-    def get_doors(self):
-        return self.__doors 
-    
