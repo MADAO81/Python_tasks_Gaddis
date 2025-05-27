@@ -4,29 +4,29 @@ class SavingsAccount:
     
     # The init method accepts arguments for the account number, interest rate, and balance.
     
-    def __init__(self, account_num,  int_rate, bal):
+    def __init__(self, account_num, int_rate, bal):
         self.__account_num = account_num
-        self.__int_rate = int_rate
-        self.__bal = bal 
-        
+        self.__interest_rate = int_rate
+        self.__balance = bal
+
     # The following methods are data attribute modifier methods.
     def set_account_num(self, account_num):
         self.__account_num = account_num
-        
+
     def set_interest_rate(self, int_rate):
-        self.__int_rate = int_rate
-        
+        self.__interest_rate = int_rate
+
     def set_balance(self, bal):
-        self.__balance = bal 
+        self.__balance = bal
         
     # The following methods are methods that receive data attributes.
     
     def get_account_num(self):
         return self.__account_num
-        
+
     def get_interest_rate(self):
         return self.__interest_rate
-        
+
     def get_balance(self):
         return self.__balance
         
@@ -37,7 +37,7 @@ class SavingsAccount:
 class CD(SavingsAccount):
     
     # The init method accepts arguments for the account number, interest rate, balance, and maturity date.
-    
+
     def __init__(self, account_num, int_rate, bal, mat_date):
         # Call __init__ method of superclass
         SavingsAccount.__init__(self, account_num, int_rate, bal)
