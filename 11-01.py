@@ -1,5 +1,7 @@
 # task 11-01
 # Employee and ProductionWorker classes
+# import emp_prod
+from objects import emp_prod
 
 def main():
     # Local valuables
@@ -21,7 +23,7 @@ def main():
     print("Information about the production worker: ")
     print("Name: ", worker.get_name())
     print("ID: ", worker.get_id_number())
-    print("Shift: ", worker.get_shif_number())
+    print("Shift: ", worker.get_shift_number())
     print("Pay rate: , $", format(worker.get_pay_rate(), ",.2f"), sep="")
     
 # call main function 

@@ -23,7 +23,7 @@ def main():
     print("Information about the shift supervisor: ")
     print("Name: ", supervisor.get_name())
     print("ID: ", supervisor.get_id_number())
-    print("Annual salary: ", supervisor.get_salary(), ",.2f". sep = "")
+    print("Annual salary: ", supervisor.get_salary(), ",.2f", sep = "")
     print("Annual bonus: $", format(supervisor.get_bonus(), ",.2f"), sep = "")
     
 # call main function 

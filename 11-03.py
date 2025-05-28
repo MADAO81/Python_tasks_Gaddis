@@ -19,7 +19,7 @@ def main():
     cust_number = input("Enter the customer ID: ")
     on_list = input("Does the client want to be on the mailing list? (Yes/No)")
     
-    if on_list = "Yes":
+    if on_list == "Yes":
         on_list_flag = True 
     else: 
         on_list_flag = False
