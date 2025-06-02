@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson 13-01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-01.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11-03.py" beforeDir="false" afterPath="$PROJECT_DIR$/11-03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,7 @@
     "Python.lesson 11-10.executor": "Run",
     "Python.lesson 11-11.executor": "Run",
     "Python.lesson 11-12.executor": "Run",
+    "Python.lesson 13-01.executor": "Run",
     "Python.lesson 5-28.executor": "Debug",
     "Python.lesson 6-01.executor": "Run",
     "Python.lesson 6-02.executor": "Run",
@@ -151,7 +150,7 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.11-03">
+  <component name="RunManager" selected="Python.lesson 13-01">
     <configuration name="Упражнение 11-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
@@ -240,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lesson 11-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson 13-01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,7 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 11-12.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson 13-01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lesson 13-01" />
         <item itemvalue="Python.11-03" />
         <item itemvalue="Python.11-02" />
         <item itemvalue="Python.11-01" />
         <item itemvalue="Python.Упражнение 11-1" />
-        <item itemvalue="Python.lesson 11-12" />
       </list>
     </recent_temporary>
   </component>
