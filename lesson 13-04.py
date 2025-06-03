@@ -1,4 +1,4 @@
-This program shows two Label elements with text.
+# This program shows two Label elements with text.
 
 import tkinter 
 

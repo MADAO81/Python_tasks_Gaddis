@@ -19,7 +19,7 @@ class MyGUI:
         self.my_button.pack()
         
         # Enter the main tkinter loop.
-        tkinter.loop()
+        tkinter.mainloop()
         
     # The do something method is a callback function for the Button interface element.
     def do_something(self):
