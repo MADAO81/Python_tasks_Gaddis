@@ -47,7 +47,7 @@ class KiloConverterGUI:
         miles = kilo * 0.6214
         
         # show result in the information dialog window 
-        tkinter.messagebox.showinfo("Result", str(kilo) + "kilometers is equivalent to ", str(miles) + "miles")
+        tkinter.messagebox.showinfo("Result", str(kilo) + " kilometers is equivalent to " + str(miles) + " miles")
         
 # create an instance of class KiloConverterGUI
 kilo_conv = KiloConverterGUI()

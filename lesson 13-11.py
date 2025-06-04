@@ -43,7 +43,7 @@ class TestAvg:
         self.calc_button = tkinter.Button(self.button_frame, text = "Average", command = self.calc_avg)
         self.quit_button = tkinter.Button(self.button_frame, text = "Exit", command = self.main_window.destroy)
         self.calc_button.pack(side = "left")
-        self.quit_button.pacl(side = "left")
+        self.quit_button.pack(side = "left")
         
         # pack the frames 
         self.test1_frame.pack()
