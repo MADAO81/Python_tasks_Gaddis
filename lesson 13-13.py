@@ -22,9 +22,9 @@ class MyGUI:
         self.cb_var3.set(0)
         
         # Create CheckButton elements in the top_frarne frame.
-        self.cb1 = tkinter.CheckButton(self.top_frarne, text = "Option 1", variable = self.cb_var1)
-        self.cb2 = tkinter.CheckButton(self.top_frarne, text = "Option 2", variable = self.cb_var2)
-        self.cb3 = tkinter.CheckButton(self.top_frarne, text = "Option 3", variable = self.cb_var3)
+        self.cb1 = tkinter.Checkbutton(self.top_frame, text = "Option 1", variable = self.cb_var1)
+        self.cb2 = tkinter.Checkbutton(self.top_frame, text = "Option 2", variable = self.cb_var2)
+        self.cb3 = tkinter.Checkbutton(self.top_frame, text = "Option 3", variable = self.cb_var3)
         
         # pack the elements of CheckButton
         self.cb1.pack()
@@ -40,7 +40,7 @@ class MyGUI:
         self.quit_button.pack(side = "left")
         
         # pack the frames
-        self.top_frarne.pack()
+        self.top_frame.pack()
         self.bottom_frame.pack()
         
         # start main loop 
@@ -61,7 +61,7 @@ class MyGUI:
             self.message = self.message + "3\n"         
         
         # Display the message in the information dialog box.
-        tkinter.messagebox.shoinfo("Select", self.message)
+        tkinter.messagebox.showinfo("Select", self.message)
         
 # create an instance of MyGUI class 
 my_gui = MyGUI()
