@@ -1,5 +1,6 @@
 # This program applies text to the Canvas element.
-import tkinter 
+import tkinter
+import tkinter.font
 
 class MyGUI:
     def __init__(self):
@@ -11,6 +12,7 @@ class MyGUI:
         
         # create a Font object
         myfont = tkinter.font.Font(family="Helvetica", size=18, weight="bold")
+
         
         # show the text in center of window 
         self.canvas.create_text(100, 100, text = "Hello, world!", font=myfont)

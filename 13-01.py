@@ -2,7 +2,7 @@
 # Name and address 
 
 import tkinter
-from tkinter.ttk import
+from tkinter.ttk import *
 
 class ShowInfoGUI:
     def __init__(self):
@@ -37,7 +37,7 @@ class ShowInfoGUI:
         
     # definite show_info function 
     def show_info(self):
-        self.value.set("John Doe\n777 Springfield\n", "Bell, Texas, 55555")
+        self.value.set("John Doe\n777 Springfield\n" "Bell, Texas, 55555")
         
 # create an instance of ShowInfoGUI class
 show_info = ShowInfoGUI()
