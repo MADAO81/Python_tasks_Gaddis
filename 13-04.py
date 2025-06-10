@@ -1,7 +1,7 @@
 # From Celsius to Fahrenheit scale
 
 import tkinter
-from tkinter.ttk import 
+from tkinter.ttk import *
 
 class CelsiusGUI:
     def __init__(self):
@@ -33,7 +33,7 @@ class CelsiusGUI:
         self.fahrenheit_label.pack(side = "left")
         
         # create two buttons in the bottom frame 
-        self.fahrenheit_button. = Button(self.bottom_frame, text = "Convert to degrees Fahrenheit", command = self.convert)
+        self.fahrenheit_button = Button(self.bottom_frame, text = "Convert to degrees Fahrenheit", command = self.convert)
         self.quit_button = Button(self.bottom_frame, text = "Quit", command = self.main_window.destroy)
         
         # pack the elements of bottom frame 
@@ -51,7 +51,7 @@ class CelsiusGUI:
     # definite the show_info function
     def convert(self):
         # get the entered values 
-        self.celsius = float.(self.celsius_entry.get())
+        self.celsius = float(self.celsius_entry.get())
         
         # calculate Fahrenheit degrees
         self.fahrenheit = 9.0/5.0*float(self.celsius) + 32
