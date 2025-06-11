@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b3f2d19a-592a-4b61-9bf6-1169af64e768" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-04.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13-05.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-06.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-07.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13-10.py" beforeDir="false" afterPath="$PROJECT_DIR$/13-10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +58,13 @@
     "Python.13-03.executor": "Run",
     "Python.13-04.executor": "Run",
     "Python.13-05.executor": "Run",
+    "Python.13-06.executor": "Run",
+    "Python.13-07.executor": "Run",
+    "Python.13-08.executor": "Run",
+    "Python.13-09.executor": "Run",
+    "Python.13-10.executor": "Run",
+    "Python.13-11.executor": "Run",
+    "Python.13-12.executor": "Run",
     "Python.3-18.executor": "Run",
     "Python.5-11.executor": "Run",
     "Python.5-13.executor": "Run",
@@ -169,7 +176,9 @@
     "Python.lesson 9-01.executor": "Run",
     "Python.vehicles.executor": "Run",
     "Python.Упражнение 11-1.executor": "Run",
+    "Python.Упражнение 13-10.executor": "Run",
     "Python.Упражнение 13-5.executor": "Run",
+    "Python.Упражнение 13-6.executor": "Run",
     "Python.Упражнение 7-3.executor": "Run",
     "Python.Упражнение 7-7.executor": "Run",
     "Python.Упражнение 8-7.executor": "Run",
@@ -182,8 +191,8 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.13-02">
-    <configuration name="Упражнение 13-5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.13-12">
+    <configuration name="Упражнение 13-10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,7 +205,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python учеба/python-20250330T083051Z-001/python/data/Решения задач по программированию/Глава 13/Упражнение 13-5.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Python учеба/python-20250330T083051Z-001/python/data/Решения задач по программированию/Глава 13/Упражнение 13-10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13-02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13-09" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,7 +227,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -227,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13-03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13-10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,7 +249,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13-04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13-11" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,7 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13-05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pylearn" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +293,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13-12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.13-02" />
-        <item itemvalue="Python.13-03" />
-        <item itemvalue="Python.13-05" />
-        <item itemvalue="Python.Упражнение 13-5" />
-        <item itemvalue="Python.13-04" />
+        <item itemvalue="Python.13-12" />
+        <item itemvalue="Python.13-11" />
+        <item itemvalue="Python.13-10" />
+        <item itemvalue="Python.Упражнение 13-10" />
+        <item itemvalue="Python.13-09" />
       </list>
     </recent_temporary>
   </component>

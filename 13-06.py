@@ -30,17 +30,17 @@ class AutoGUI:
         self.cb_inspection_var.set(0)
         self.cb_muffler_var.set(0)
         self.cb_tire_var.set(0)
+
+        # create flag buttons Checkbutton in the upper frame
+        self.cb1 = Checkbutton(self.top_frame, text = "Change oil - $30.00", variable = self.cb_oil_var)
+        self.cb2 = Checkbutton(self.top_frame, text = "Lubricate works - $20.00", variable = self.cb_lube_var)
+        self.cb3 = Checkbutton(self.top_frame, text = "Radiator flushing - $40.00", variable = self.cb_radiator_var)
+        self.cb4 = Checkbutton(self.top_frame, text = "Replacement of transmission fluid - $100.00", variable = self.cb_trans_var)
+        self.cb5 = Checkbutton(self.top_frame, text = "Inspection - $35.00", variable = self.cb_inspection_var)
+        self.cb6 = Checkbutton(self.top_frame, text = "Replacing the exhaust muffler - #200.00", variable = self.cb_muffler_var)
+        self.cb7 = Checkbutton(self.top_frame, text = "Change tires = $20.00", variable = self.cb_tire_var)
         
-        # create flag buttons Checkbutton in the upper frame 
-        self.cb1 = Chekbutton(self.top_frame, text = "Change oil - $30.00", variable = self.cb_oil_var)
-        self.cb2 = Chekbutton(self.top_frame, text = "Lubricate works - $20.00", variable = self.cb_lube_var)
-        self.cb3 = Chekbutton(self.top_frame, text = "Radiator flushing - $40.00", variable = self.cb_radiator_var)
-        self.cb4 = Chekbutton(self.top_frame, text = "Replacement of transmission fluid - $100.00", variable = self.cb_trans_var)
-        self.cb5 = Chekbutton(self.top_frame, text = "Inspection - $35.00", variable = self.cb_inspection_var)
-        self.cb6 = Chekbutton(self.top_frame, text = "Replacing the exhaust muffler - #200.00", variable = self.cb_muffler_var)
-        self.cb7 = Chekbutton(self.top_frame, text = "Change tires = $20.00", variable = self.cb_tire_var)
-        
-        # pack the Chekbutton elements
+        # pack the Checkbutton elements
         self.cb1.pack()
         self.cb2.pack()
         self.cb3.pack()
@@ -49,7 +49,7 @@ class AutoGUI:
         self.cb6.pack()
         self.cb7.pack()
         
-        # create two buttons at the bottom frame 
+        # create two buttons at the bottom frame
         self.display_button = Button(self.bottom_frame, text = "Show the total cost", command = self.calculate)
         self.quit_button = Button(self.bottom_frame, text = "Quit", command = self.main_window.destroy)
         
@@ -58,8 +58,8 @@ class AutoGUI:
         self.quit_button.pack(side = "left")
         
         # pack the frames 
-        self.top_frame.pack
-        self.bottom_frame.pack
+        self.top_frame.pack()
+        self.bottom_frame.pack()
         
         # enter the main loop of tkinter
         tkinter.mainloop()

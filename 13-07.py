@@ -4,7 +4,7 @@ import tkinter
 from tkinter.ttk import *
 import tkinter.messagebox
 
-class AutoGUI:
+class LongDistanceGUI:
     def __init__(self):
         # create main window 
         self.main_window = tkinter.Tk()
@@ -32,7 +32,7 @@ class AutoGUI:
         
         # Create interface elements for the middle frame
         self.minutes_label = Label(self.mid_frame, text = "Enter the number of minutes: ")
-        self.minutes.entry = Entry(self.mid_frame, width = 10)
+        self.minutes_entry = Entry(self.mid_frame, width = 10)
         
         # Pack the elements in a value_frame 
         self.minutes_label.pack(side = "left")
