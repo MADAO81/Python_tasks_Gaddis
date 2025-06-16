@@ -1,5 +1,9 @@
 # This program demonstrates 
 # the functional version of the range_sum function
+def pipe(data, *fseq):
+    for fn in fseq:
+        data = fn(data)
+    return data
 
 def main():
     # Algorithm 
